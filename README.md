@@ -6,7 +6,7 @@ https://github.com/WishMarket/WishMarket-BE
 
 [https://wishmarket.netlify.app/](https://wishmarket.netlify.app/) (사이트)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fbf725bd-55f6-4e52-984a-89dc8744fa40/Untitled.png)
+![image](https://user-images.githubusercontent.com/79897135/235173030-c33f80b0-8cc8-465b-8957-4a83a13ddeb2.png)
 
 - 주고싶거나 받고싶은 선물이 있을때, 고민없이 위시마켓
 - 개발 인원 :  6명 (백엔드4 + 프론트2)
@@ -23,7 +23,7 @@ https://github.com/WishMarket/WishMarket-BE
 
 [https://youtu.be/IbfWnYwOlSs](https://youtu.be/IbfWnYwOlSs)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1ccce581-0adb-4922-96af-f7f5a88b2c48/Untitled.png)
+https://file.notion.so/f/s/1ccce581-0adb-4922-96af-f7f5a88b2c48/Untitled.png?id=42dd178d-aabf-4abc-8c7e-ea6132201c04&table=block&spaceId=c92132b9-3e40-4ee2-b587-4b29c628f820&expirationTimestamp=1682777956689&signature=RCBtvDbMYSIZcVFAtit5oOjnbVWe-5XXMPsJ5X2bpqo&downloadName=Untitled.png
 
 ### 설계 / 개발
 
@@ -43,7 +43,7 @@ https://github.com/WishMarket/WishMarket-BE
 
 [Team G4U](https://www.erdcloud.com/d/6DmtMZZyuhs3ZZNaj)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/963812c6-371e-4fb0-a474-0cac3963f569/Untitled.png)
+![image](https://user-images.githubusercontent.com/79897135/235173170-2667d12c-a54c-4f7f-8eee-a643b420f3e0.png)
 
 - 주요 기능 테이블
     - Funding, Product, WishList 테이블
@@ -81,30 +81,30 @@ https://github.com/WishMarket/WishMarket-BE
     - 찜목록 추가, 조회, 삭제
     - 특정 유저의 찜목록 조회 기능
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a9d35703-d92d-41ac-b716-9cf397f778b1/Untitled.png)
+![image](https://user-images.githubusercontent.com/79897135/235173229-e0e052b6-1671-4595-bc2d-754c1747b561.png)
     
 - 다양한 상품 조회 기능
     - 카테고리별 상품 조회
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f6560403-60ce-4614-82c6-3f68e2a626cd/Untitled.png)
+![image](https://user-images.githubusercontent.com/79897135/235173333-4b09ece6-61f5-49da-95df-bd456525d128.png)
     
     - 베스트 상품 조회
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cc2bfd3c-44fd-41c7-8877-7bad26ed7697/Untitled.png)
+![image](https://user-images.githubusercontent.com/79897135/235173392-80c3caf6-506e-4d80-88ee-7786f63a55c8.png)
     
 
 - 펀딩 기능 구현
     - 펀딩 시작하기, 참여하기(이미 진행중인 펀딩에 대해서), 상세 정보 조회 등 기본적인 기능 구현
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0fac3e23-d51e-441a-b47e-a3ddeb6d870a/Untitled.png)
+![image](https://user-images.githubusercontent.com/79897135/235173465-df2c3684-9d64-4426-b396-6c119c2f7709.png)
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6a9297c5-09e2-4877-8dba-a78262191b71/Untitled.png)
+![image](https://user-images.githubusercontent.com/79897135/235173513-cb04b6af-043f-4680-af62-905732d51003.png)
         
     
     - 특정 유저에 대한 무작위 펀딩 내역 조회
         - 몇몇 유저들은 인기유저(인플루언서)로 구분하여 해당 유저들을 대상으로 진행중인 펀딩을 조회시 매번 랜덤한 결과값을 반환함
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/60511681-b53d-40fa-bffe-8387d52ab434/Untitled.png)
+![image](https://user-images.githubusercontent.com/79897135/235173552-2c00261f-1406-4e1f-a0c4-54f311d55c0b.png)
         
     
 
@@ -112,14 +112,14 @@ https://github.com/WishMarket/WishMarket-BE
     - 상품 데이터를 db에 일일이 넣기에는 다소 무리가 있다고 생각
     - 상품 데이터를 직접 넣는 기능과 관리자 페이지를 추가, 작업 효율성 상승
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8ead8f9-3df1-4de9-9221-05c5b8322726/Untitled.png)
+![image](https://user-images.githubusercontent.com/79897135/235173614-e93be201-49dd-435e-bb6b-5a9052b659d8.png)
         
 
 ### TroubleShooting
 
 - **날짜 데이터를 받아오는 값이 9시간 차이나게끔 넘어오는 현상**
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/19696a9e-510b-45be-94b3-25d182fd0e8c/Untitled.png)
+![image](https://user-images.githubusercontent.com/79897135/235173680-cd587315-b3bb-4c07-a79f-3c017dcd8398.png)
     
     - **이슈**
         - 새로운 펀딩을 등록시 저장되는 데이터의 날짜가 9시간 이전 시간으로 저장이 되는 현상
@@ -130,11 +130,11 @@ https://github.com/WishMarket/WishMarket-BE
 
 - 베스트 상품 기능
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5ba75ad2-2c6c-4a00-a632-4ad5a2eb2444/Untitled.png)
+![image](https://user-images.githubusercontent.com/79897135/235173715-a0f6410e-6229-4e9d-8ed1-b25e1c5b2afd.png)
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/44fdc0c5-a5df-49c0-a358-097c5cbddb48/Untitled.png)
+![image](https://user-images.githubusercontent.com/79897135/235173758-b22337da-a785-4319-9019-d4949330a1e8.png)
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e2c478d7-9180-4f15-a007-f9e21be52862/Untitled.png)
+![image](https://user-images.githubusercontent.com/79897135/235173786-679919b6-3b76-4b6e-acdc-5be9afd087b6.png)
     
     - **이슈**
         - 베스트 상품 목록을 메인 홈페이지에 표출하여 동시에 많은 유저가 접속 시 DB에 직접적인 접근과 무거운 연산으로 인한 부하 발생
